@@ -1,0 +1,37 @@
+{
+    "name": "thunderbird_colorize_folder",
+    "version": "0.0.3",
+    "description": "Colorize folders.",
+    "main": "src/background.js",
+    "scripts": {
+        "build": "webpack && web-ext build",
+        "lint": "web-ext lint",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cphyc/thunderbird_colorize.git"
+    },
+    "keywords": [
+        "thunderbird",
+        "webextension"
+    ],
+    "author": "Corentin Cadiou",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/cphyc/thunderbird_colorize/issues"
+    },
+    "homepage": "https://github.com/cphyc/thunderbird_colorize#readme",
+    "webExt": {
+        "ignoreFiles": [
+            "imgs",
+            "*.png",
+            "*.svg"
+        ]
+    },
+    "devDependencies": {
+        "web-ext": "2.6",
+        "webpack": "^4.44.2",
+        "webpack-cli": "^3.3.12"
+    }
+}

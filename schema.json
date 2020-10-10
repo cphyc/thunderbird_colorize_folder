@@ -1,0 +1,14 @@
+[
+  {
+    "namespace": "mailColorize",
+    "functions": [
+      {
+        "name": "colorizeMailList",
+        "description": "Colorize the mail list",
+        "type": "function",
+        "async": true,
+        "parameters": []
+      }
+    ]
+  }
+]
